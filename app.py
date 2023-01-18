@@ -10,9 +10,9 @@ def main() -> None:
         fraction_fit=1.0,
         fraction_evaluate=1.0,
         min_fit_clients=1,
-        min_eval_clients=1,
+        min_evaluate_clients=1,
         min_available_clients=1,
-        eval_fn=None,
+        min_evaluate_clients=None,
         on_fit_config_fn=fit_config,
         initial_parameters=None,
     )
