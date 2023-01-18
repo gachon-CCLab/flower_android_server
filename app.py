@@ -12,7 +12,6 @@ def main() -> None:
         min_fit_clients=1,
         min_evaluate_clients=1,
         min_available_clients=1,
-        min_evaluate_clients=None,
         on_fit_config_fn=fit_config,
         initial_parameters=None,
     )
