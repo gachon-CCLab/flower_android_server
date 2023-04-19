@@ -1,7 +1,7 @@
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
 import flwr as fl
-import tensorflow as tf
+# import tensorflow as tf
 
 
 def main() -> None:
